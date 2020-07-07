@@ -1,14 +1,16 @@
-def mul():
+import sys
 
-     x= int(input("inserez la premiere valeur ? "))
-     y= int(input("inserez la premiere valeur ? "))
-     print(x+y)
+print(sys.argv)
 
-def main():
-    mul()
+x = int(sys.argv[1])
+y = int(sys.argv[2])
 
-if __name__ == "__main__":
-    main()
+if(len(sys.argv)==3):
+   print(x+y)
+else:
+    print("erreur")
+
+
 
 
 

@@ -1,8 +1,7 @@
 import sys
 
 def mul(a,b):
-	return a*b
-
+	return (int(a*b))
 if __name__=="__main__":
 
 	print(sys.argv)
@@ -13,12 +12,12 @@ if __name__=="__main__":
     		print(mul(x,y))
 	elif(len(sys.argv)==2):
     		x = int(sys.argv[1])
-    		y=(input("veuillez entree la troixieme valeur:  "))
+    		y=int(input("veuillez entree la troixieme valeur:  "))   		
     		print(mul(x,y))
 
 	elif(len(sys.argv)==1):
-    		x=(input("veuillez entree la deuxieme valeur: "))
-    		y=(input("veuillez entree la troixieme valeur: "))
+    		x=int(input("veuillez entree la deuxieme valeur: "))
+    		y=int(input("veuillez entree la troixieme valeur: "))
     		print(mul(x,y))
 	else:
     		print("erreur")

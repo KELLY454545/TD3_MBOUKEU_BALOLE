@@ -18,8 +18,8 @@ if __name__ == "__main__":
 		print(add(x,y))
 
 	elif(len(sys.argv)==1):
-		x=(input("veuillez entree la deuxieme valeur:"))
-		y=(input("veuillez entree la troisieme  valeur:"))
+		x=int(input("veuillez entree la deuxieme valeur:"))
+		y=int(input("veuillez entree la troisieme  valeur:"))
 		print(add(x,y))
 
 	else:

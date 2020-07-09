@@ -13,7 +13,7 @@ if __name__=="__main__":
                         print(mul(x,y))
                 elif(len(sys.argv)==2):
                         x = int(sys.argv[1])
-                        y=(input("veuillez entree la troixieme valeur:  "))
+                        y=int(input("veuillez entree la troixieme valeur:  "))
                         print(mul(x,y))
 
                 elif(len(sys.argv)==1):
@@ -32,7 +32,7 @@ if __name__=="__main__":
 
                 elif(len(sys.argv)==2):
                         x= int(sys.argv[1])
-                        y=(input("veuillez entree la deuxieme valeur:"))
+                        y=int(input("veuillez entree la deuxieme valeur:"))
                         print(add(x,y))
 
                 elif(len(sys.argv)==1):
